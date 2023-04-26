@@ -1,6 +1,6 @@
 # wasm-ts
 
-## Steps for setting up rust -> wasm -> typescript env
+## Steps taken to set up rust -> wasm -> typescript env
 
 ### Rust Side
 - add wasm dependency, `cargo add wasm-bindgen`
