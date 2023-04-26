@@ -10,7 +10,7 @@
 - compile the lib: `cargo +nightly build --target wasm32-unknown-unknown`
 - ensure the `wasm-bindgen-cli` is installed:  `cargo install wasm-bindgen-cli`
 - create dir for TS bindings if needed (named bindings in this example)
-- create wasm TS bindings: `wasm-bindgen target/wasm32-unknown-unknown/debug/rwasm_lib.wasm --out-dir bindings` --target nodejs
+- create wasm TS bindings: `wasm-bindgen target/wasm32-unknown-unknown/debug/rwasm_lib.wasm --out-dir bindings --target nodejs`
   NOTE: it's essential to specify nodejs as the binding target
 
 ### TS Side
