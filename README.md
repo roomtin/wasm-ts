@@ -17,3 +17,7 @@
 - ensure ts-node & typescript are installed
 - import functions from bindings dir
 - use as if they were native
+
+## Run
+- cd to `pkg`
+- `yarn run fizzbuzz`
